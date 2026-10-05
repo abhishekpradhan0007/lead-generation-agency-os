@@ -1,0 +1,41 @@
+pipeline,stage_order,stage,purpose
+Lead Generation,1,New Lead,First touch not yet worked
+Lead Generation,2,Contacted,Outreach sent
+Lead Generation,3,Qualified,Fit and interest confirmed
+Lead Generation,4,Discovery Call Booked,Meeting on calendar
+Lead Generation,5,Proposal Sent,Offer sent
+Lead Generation,6,Negotiation,Terms in discussion
+Lead Generation,7,Closed Won,Signed
+Lead Generation,8,Closed Lost,Declined or disqualified
+Lead Generation,9,Nurture,No reply or not now
+Client Retainer,1,Prospect,Not yet a client
+Client Retainer,2,Proposal Accepted,Yes before kickoff
+Client Retainer,3,Onboarding,Setup in progress
+Client Retainer,4,Retainer Active,Contract live
+Client Retainer,5,Campaign Live,Work in market
+Client Retainer,6,Expansion Opportunity,Upsell open
+Client Retainer,7,At Risk,Churn or payment risk
+Client Retainer,8,Churned,Ended
+Social Media / Content,1,Content Brief Created,Brief drafted
+Social Media / Content,2,Brief Approved,Approved to produce
+Social Media / Content,3,Copy Written,Copy done
+Social Media / Content,4,Design Ready,Asset done
+Social Media / Content,5,Scheduled,Queued
+Social Media / Content,6,Published,Live
+Social Media / Content,7,Engaged,Metrics logged
+Social Media / Content,8,Reported,In monthly report
+Commission Tracking,1,Qualified Lead,Eligible source
+Commission Tracking,2,Deal Created,Deal exists
+Commission Tracking,3,Proposal Shared,Offer out
+Commission Tracking,4,Closed Won,Revenue closed
+Commission Tracking,5,Commission Calculated,Amount set
+Commission Tracking,6,Payout Pending,Not paid
+Commission Tracking,7,Paid,Paid
+Commission Tracking,8,Disputed,Hold
+Billing / Retainer,1,Payment Pending,Invoice open
+Billing / Retainer,2,Payment Received,Paid
+Billing / Retainer,3,Retainer Active,Subscription live
+Billing / Retainer,4,Renewal Due,Inside renewal window
+Billing / Retainer,5,Renewed,Renewed
+Billing / Retainer,6,Payment Failed,Failed charge
+Billing / Retainer,7,Cancelled,Cancelled

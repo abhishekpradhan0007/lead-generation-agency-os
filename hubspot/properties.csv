@@ -1,0 +1,101 @@
+object,label,internal_name,type,field_type,group,notes
+contact,Lead Source,lead_source,enumeration,select,agency,Form or import source
+contact,Campaign Source,campaign_source,string,text,agency,Campaign name on the contact
+contact,Channel,channel,enumeration,select,agency,email linkedin sms whatsapp social referral
+contact,ICP Fit Score,icp_fit_score,number,number,agency,0-100
+contact,Persona,persona,enumeration,select,agency,
+contact,Company Size,company_size,enumeration,select,agency,
+contact,Industry,industry,string,text,agency,Use native industry if present
+contact,Country,country,string,text,agency,Use native country if present
+contact,City,city,string,text,agency,Use native city if present
+contact,Business Email,business_email,string,text,agency,Use native email if present
+contact,Phone Number,phone_number,string,phonenumber,agency,Use native phone if present
+contact,Last Contacted Date,last_contacted_date,date,date,agency,
+contact,Last Outreach Type,last_outreach_type,enumeration,select,agency,email call sms whatsapp linkedin
+contact,Preferred Contact Method,preferred_contact_method,enumeration,select,agency,
+contact,LinkedIn URL,linkedin_url,string,text,agency,
+contact,Consent Status,consent_status,enumeration,select,agency,unknown yes no
+contact,Do Not Contact,do_not_contact,enumeration,booleancheckbox,agency,
+contact,Buying Role,buying_role,enumeration,select,agency,
+contact,Decision Maker,decision_maker,enumeration,booleancheckbox,agency,
+contact,Interested In,interested_in,string,text,agency,
+contact,Last Meeting Date,last_meeting_date,date,date,agency,
+company,Company Domain,company_domain,string,text,agency,Use native domain
+company,Employee Count,employee_count,number,number,agency,Use native employees
+company,Industry,company_industry,string,text,agency,Use native industry
+company,Annual Revenue,annual_revenue,number,number,agency,Use native annual revenue
+company,Website,website,string,text,agency,Use native website
+company,LinkedIn Company Page,linkedin_company_page,string,text,agency,
+company,Tech Stack,tech_stack,string,textarea,agency,
+company,Target Market,target_market,string,text,agency,
+company,Service Interest,service_interest,enumeration,select,agency,
+company,Current Provider,current_provider,string,text,agency,
+company,Location,location,string,text,agency,
+company,Customer Type,customer_type,enumeration,select,agency,prospect client partner
+company,Account Score,account_score,number,number,agency,
+company,Account Status,account_status,enumeration,select,agency,
+deal,Retainer Amount,retainer_amount,number,number,agency,Internal. Not for call scripts
+deal,Commission %,commission_percent,number,number,agency,Internal. Not for call scripts
+deal,Commission Amount,commission_amount,number,number,agency,Internal
+deal,Deal Value,deal_value,number,number,agency,Use native amount if present
+deal,Closed Revenue,closed_revenue,number,number,agency,
+deal,Project Type,project_type,enumeration,select,agency,
+deal,Campaign Type,campaign_type,enumeration,select,agency,
+deal,Source Channel,source_channel,enumeration,select,agency,
+deal,Lead Owner,lead_owner,enumeration,select,agency,Use native owner if present
+deal,Sales Rep,sales_rep,enumeration,select,agency,
+deal,Proposal Sent Date,proposal_sent_date,date,date,agency,
+deal,Close Date,close_date,date,date,agency,Use native close date
+deal,Renewal Date,renewal_date,date,date,agency,
+deal,MRR,mrr,number,number,agency,Internal
+deal,Client Tier,client_tier,enumeration,select,agency,
+deal,Retainer Status,retainer_status,enumeration,select,agency,
+deal,Payment Status,payment_status,enumeration,select,agency,
+deal,Upsell Potential,upsell_potential,enumeration,select,agency,
+deal,ROI Forecast,roi_forecast,number,number,agency,
+deal,Expected Revenue,expected_revenue,number,number,agency,
+deal,Revenue Source,revenue_source,enumeration,select,agency,retainer commission project
+deal,Campaign ID,campaign_id,string,text,agency,
+deal,Campaign Name,campaign_name,string,text,agency,
+deal,Channel,deal_channel,enumeration,select,agency,
+deal,Persona,deal_persona,enumeration,select,agency,
+deal,ICP Fit Score,deal_icp_fit_score,number,number,agency,
+deal,Product/Service,product_service,enumeration,select,agency,
+deal,Last Outreach Date,last_outreach_date,date,date,agency,
+deal,Next Action Date,next_action_date,date,date,agency,
+deal,Estimated Deal Value,estimated_deal_value,number,number,agency,
+deal,Contract Start Date,contract_start_date,date,date,agency,
+deal,Contract End Date,contract_end_date,date,date,agency,
+deal,Client Status,client_status,enumeration,select,agency,
+deal,Account Owner,account_owner,enumeration,select,agency,
+deal,Services Included,services_included,string,textarea,agency,
+deal,Revenue Forecast,revenue_forecast,number,number,agency,
+deal,Invoice Reference,invoice_reference,string,text,agency,
+deal,Payout Date,payout_date,date,date,agency,
+deal,Pay Status,pay_status,enumeration,select,agency,
+deal,Source Partner,source_partner,string,text,agency,
+deal,Referral Source,referral_source,string,text,agency,
+deal,Invoice Number,invoice_number,string,text,agency,
+deal,Subscription ID,subscription_id,string,text,agency,Lemon Squeezy
+deal,Billing Cycle,billing_cycle,enumeration,select,agency,monthly annual
+deal,Renewal Amount,renewal_amount,number,number,agency,
+deal,Last Payment Date,last_payment_date,date,date,agency,
+deal,Due Date,due_date,date,date,agency,
+deal,Customer ID,customer_id,string,text,agency,Lemon Squeezy customer
+deal,Platform,platform,enumeration,select,agency,linkedin x blog email
+deal,Content Type,content_type,enumeration,select,agency,
+deal,Post Status,post_status,enumeration,select,agency,
+deal,Engagement Rate,engagement_rate,number,number,agency,
+deal,Reach,reach,number,number,agency,
+deal,Clicks,clicks,number,number,agency,
+deal,Leads Generated,leads_generated,number,number,agency,
+deal,Approval Status,approval_status,enumeration,select,agency,
+deal,Follow Up Date,follow_up_date,date,date,agency,
+deal,Last Reply Date,last_reply_date,date,date,agency,
+deal,Response Deadline,response_deadline,date,date,agency,
+ticket,Ticket Type,ticket_type,enumeration,select,agency,
+ticket,Campaign Issue,campaign_issue,string,text,agency,
+ticket,Client Priority,client_priority,enumeration,select,agency,
+ticket,SLA Breach,sla_breach,enumeration,booleancheckbox,agency,
+ticket,Escalation Level,escalation_level,enumeration,select,agency,
+ticket,Response Due Date,response_due_date,date,date,agency,
